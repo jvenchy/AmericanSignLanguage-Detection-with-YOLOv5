@@ -1,0 +1,16 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../data
+train: images
+val: images
+test: # test images (optional)
+
+# Classes
+names:
+    0: cheeseburger
+    1: person
+    2: hello
+    3: i love you
+    4: no
+    5: yes
+    6: please
+    7: sorry
