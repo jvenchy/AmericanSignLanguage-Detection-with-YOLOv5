@@ -1,3 +1,5 @@
+To see a working demo, follow this link: https://www.youtube.com/watch?v=CCpvJtjC064&ab_channel=PROD.NORTHCEDAR
+
 For this project I used YOLOv5 and PyTorch to train a custom model on a dataset of 120 images, each labeled with one of six common signs from American Sign Language (ASL).
 
 The actual training data is not provided in this github repository, but the metrics (and some images) from the most recent training run of 500 iterations is available to see in the env7 folder.
