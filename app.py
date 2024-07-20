@@ -8,7 +8,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 ###############################
-# Testing Images with Yolo
+# Testing the standard YOLO model on images
 
 # model = torch.hub.load('yolov5', 'yolov5s', source='local')
 # img = 'traffic-jam-getty.jpg'
@@ -25,27 +25,8 @@ matplotlib.use('TkAgg')
 # plt.show()
 # plt.close()
 
-
 ###############################
-# Real Time Detections with YOLO
-#
-# cap = cv2.VideoCapture(0)
-# while cap.isOpened():
-#     ret, frame = cap.read()
-#
-#     # Make detection
-#     results = model(frame)
-#
-#     cv2.imshow('YOLO', np.squeeze(results.render()))
-#
-#     if cv2.waitKey(10) & 0xFF == ord('q'):
-#         break
-# cap.release()
-# cv2.destroyAllWindows()
-
-
-###############################
-# Training the model (Use RectLabel on the MacOS App Store for labelling images taken)
+# Gathering images for our data (Use RectLabel on the MacOS App Store for labelling images taken)
 # import uuid
 # import os
 # import time
