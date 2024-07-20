@@ -14,3 +14,6 @@ Here's a breakdown of all possible signs the model was capable of:
 <img width="575" alt="No, False" src="https://github.com/user-attachments/assets/a18543c1-4403-403b-8ec1-18fddc6a421a">
 <img width="539" alt="Please" src="https://github.com/user-attachments/assets/ac2e8d9e-9c33-4173-9a0e-abc1c9b93056">
 <img width="537" alt="Sorry" src="https://github.com/user-attachments/assets/6f783183-d9ad-4b02-9435-638fa605611b">
+
+Final Thoughts:
+YOLO's pretty cool, and I would want to incorporate this with more sign data for more accuracy, as well as expanding to more gestures overall.
